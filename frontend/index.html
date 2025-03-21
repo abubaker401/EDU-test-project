@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NFT Collection Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>NFT Collection Tracker</h1>
+      <p>Manage your NFTs and Auctions</p>
+    </header>
+
+    <section class="mint-section">
+      <h2>Mint New NFT</h2>
+      <form id="mint-form">
+        <input type="text" id="mint-uri" placeholder="Enter NFT URI" required />
+        <button type="submit">Mint NFT</button>
+      </form>
+    </section>
+
+    <section class="auction-section">
+      <h2>Create Auction for NFT</h2>
+      <form id="auction-form">
+        <input type="number" id="auction-token-id" placeholder="Enter NFT Token ID" required />
+        <input type="number" id="auction-price" placeholder="Starting Price" required />
+        <input type="number" id="auction-duration" placeholder="Auction Duration (seconds)" required />
+        <button type="submit">Start Auction</button>
+      </form>
+    </section>
+
+    <section class="nft-details-section">
+      <h2>View NFT Details</h2>
+      <input type="number" id="view-token-id" placeholder="Enter NFT Token ID" />
+      <button id="view-nft-details">View Details</button>
+      <div id="nft-details">
+        <p><strong>Owner:</strong> <span id="nft-owner"></span></p>
+        <p><strong>URI:</strong> <span id="nft-uri"></span></p>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 NFT Collection Tracker</p>
+    </footer>
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
