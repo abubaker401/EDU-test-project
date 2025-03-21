@@ -52,3 +52,6 @@ This README serves as the documentation for the NFT Collection Tracker project, 
 ##contract address
 0xD70a936E8206f20e5ace6A86e27ea602B635bFF7
 ![image](https://github.com/user-attachments/assets/9dfabd09-1d4f-46dd-bf35-9aebc659bebd)
+
+##frontend
+![image](https://github.com/user-attachments/assets/ab5839ac-f93e-4177-9d01-d318e28b2324)
